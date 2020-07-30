@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ls -l ~/FINAL | awk '!/^[d]/ {print}' >> FINALinstruction
+
+total 32
+-rw-rw-r--. 1 mnguyen128@gsuad.gsu.edu mnguyen128@gsuad.gsu.edu   72 Jul 29 18:41 FINALinstruction
+-rw-rw-r--. 1 mnguyen128@gsuad.gsu.edu mnguyen128@gsuad.gsu.edu  844 Jul 25 14:33 Question1.py
+-rwxrwxr-x. 1 mnguyen128@gsuad.gsu.edu mnguyen128@gsuad.gsu.edu 8464 Jul 29 17:58 Question2
+-rw-rw-r--. 1 mnguyen128@gsuad.gsu.edu mnguyen128@gsuad.gsu.edu 1173 Jul 29 17:53 Question2.c
